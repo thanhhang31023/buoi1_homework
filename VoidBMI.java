@@ -17,7 +17,7 @@ public class VoidBMI {
             double weight = 48.0; // cân nặng (kg)
             double height = 1.56; // chiều cao (m)
 
-            double bmi = weight / Math.pow(height, 2);
+            double bmi = weight / (height*height);
 
             System.out.println("Chỉ số khối cơ thể (BMI) là: " + bmi);
         }
