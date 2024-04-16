@@ -24,7 +24,7 @@ public class DoubleBMI {
         }
 
         public static double calculateBMI(double weight, double height) {
-            return weight / Math.pow(height, 2);
+            return weight / (height*height);
         }
     }
 
